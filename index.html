@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Living Computer V 0.0.6</title>
+	<title>Biohack V 0.0.7</title>
 	<link rel="stylesheet" href="styles.css">
 	<!-- Firebase SDK -->
 	<meta charset="UTF-8">
@@ -25,7 +25,7 @@
   <div class="container" style="z-index: 1;">
     <div id="terminal">
 		<div style="margin-left: 1%;">
-			<span style="color: #666">v. 0.0.0.6<br>
+			<span style="color: #666">v. 0.0.0.7<br>
 			this is a test build, it is not necessarily reflective of the final product and is prone to bugs<br>
 			-------------------------------------------------------</span><br>
 			<span ><a style="color: #5e4dff;" href="https://discord.gg/ykmdtZhSN3">Join the Discord!</a></span><br>
@@ -49,7 +49,10 @@
 			#########################################################################################################################################################################################<br>
 		</div>
 	</div>
-    <div id="chat"></div>
+    <div id="chat">
+		<canvas width="500" height="200" id="canv" style="display: none;"> 
+	</canvas></div>
+	
 	<div id="status">
 		<h1 style="margin-left: 45%; color: #bababa; margin-top: -.5%;">STATUS</h1>
 		<div style="margin-left: 2%;">
@@ -70,6 +73,10 @@
 	</div>
 	<script src="./renderer.js"></script>
     <script src="script.js"></script>
-    <script src="glitch.js"></script>
+    <script src="glitch.js"></script>	
+    <script src="matrix.js"></script>
+    <script src="commands.js"></script>
+    <script src="adminConsole.js"></script>	
+    <script src="var.js"></script>	
 </body>
 </html>
