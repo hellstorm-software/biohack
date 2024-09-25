@@ -23,6 +23,7 @@ if (isElectron) {
 const terminal = document.getElementById("terminal");
 const input = document.getElementById("input");
 
+let terminalHistory = [];
 
 // ##############################################################################################################################
 //
@@ -35,7 +36,7 @@ const input = document.getElementById("input");
 // Add styling for specific keywords in the input
 function applyStylingToText(content) {
   return content.replace(/<\/?[^>]+>/g, match => match) // Ignore HTML tags
-    .replace(/\b(help|user|username|create|script|scripts|room|rooms|code|matrix|lookup|whoami|redacted|clear|brainstem|hunt|kyphxr|console)\b/gi, 
+    .replace(/\b(help|user|username|create|script|scripts|room|rooms|code|matrix|lookup|whoami|redacted|clear|brainstem|hunt|kyphxr|console|osint)\b/gi, 
       (match) => `<span class="${getTextColorClass(match)}">${match}</span>`);
 }
 
@@ -59,6 +60,7 @@ function getTextColorClass(keyword) {
     brainstem: 'anomevo-text',
     hunt: 'red-text2',
 	kyphxr: 'ky-text',
+	osint: 'ti-text',
   };
   return colors[keyword.toLowerCase()] || '';
 }
@@ -98,7 +100,12 @@ function sanitizeInput(input) {
 // Process command and display in terminal
 async function processCommand(command) {
   const response = await handleCommand(command);
-  terminal.innerHTML += `> ${applyStylingToText(command)}<br/>${applyStylingToText(response)}<br/>`;
+  const formattedCommand = `> ${applyStylingToText(command)}<br/>`;
+  const formattedResponse = `${applyStylingToText(response)}<br/>`;
+
+  terminal.innerHTML += formattedCommand + formattedResponse;
+  terminalHistory.push(formattedCommand + formattedResponse);  // Store in history
+
   terminal.scrollTop = terminal.scrollHeight;
 }
 
@@ -152,5 +159,13 @@ const adminCommandHandler = async (input) => {
   console.log(output);  // Log the result of the command
 };
 
-
+function removeLastResponse() {
+  if (terminalHistory.length > 0) {
+    terminalHistory.pop(); // Remove the last response from history
+    terminal.innerHTML = terminalHistory.join(''); // Update the terminal content
+    return "Last response removed.";
+  } else {
+    return "No responses to remove.";
+  }
+}
 

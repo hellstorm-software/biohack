@@ -41,8 +41,13 @@ async function handleCommand(command) {
       return helpResponse;
     case "osint.pug":
       return pugResponseA;
+    case "pyxie.(override)":
+	  removeLastResponse();
+      return pugResponseB;
     case "clear":
       return emptyResponse;
+    case "reset":
+      return resetHT;
     case "discord":
       return '<a class="discord-text" href="https://discord.gg/ykmdtZhSN3" target="_blank">https://discord.gg/ykmdtZhSN3</a>';
     case "kyphxr.console":
