@@ -35,8 +35,12 @@ async function handleCommand(command) {
       return `you have 1 Brainstem. Use hunt.brainstem to search for <i>Anomevos</i> to fight;`
     case "user-lookup.kyphxr":
       return kyphxrLookupResponse;
+    case "user-lookup.grimbeard":
+      return grimbeardLookupResponse;
     case "help":
       return helpResponse;
+    case "OSINT.pug":
+      return pugResponseA;
     case "clear":
       return emptyResponse;
     case "discord":
