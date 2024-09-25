@@ -12,6 +12,7 @@ const helpResponse = `
 		>> matrix.on / matrix.off -- enable/disable matrix text over chat box<br>
 		>> kyphxr.console -- switch to the console kyphxr uses in his vidoes<br>
 		>> main.console -- switch to the main biohack console<br>
+		>> OSINT.[username] -- return a data scrape of a target
 	</span>
 `;
 
@@ -32,9 +33,21 @@ const pugResponseB = `
  ###################################
 #       <span style="font-size: 24px;">Name:</span> <span style="font-size: 18px; color: red;">Parapug</span>        #
 #       ---------------------       #     <span style="color: #7e2eff;"><i>this is a Keter-class entity. proceed with caution.</i></span>
-#         power level: <span style="color: red;" class="glitch-div">error</span>        #     >> <span style="color: #7e2eff;">unlike SCP-1783, PUG has abilities that far outweigh that of most beings.<i></span>
-#       dims of orgin: <span style="color: red;" class="glitch-div">error</span>        #     >> <span style="color: #7e2eff;">experimentation of this entity is ill-advised.<i></span>
-#        affiliations: <span style="color: red;">grim beard</span>   #
+#         power level: <span style="color: red;">error</span>        #     >> <span style="color: #7e2eff;">unlike SCP-1783, PUG has abilities that far outweigh that of most beings.<i></span>
+#       dims of orgin: <span style="color: red;">error</span>        #     >> <span style="color: #7e2eff;">experimentation of this entity is ill-advised.<i></span>
+#        affiliations: <span style="color: red;" class="glitch-div">resetting</span>   #
+ ###################################
+	</div>
+`;
+
+const pugResponseC = `
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: 100px;">
+ ###################################
+#        <span style="font-size: 24px;">Name:</span> <span style="font-size: 18px; color: red;" class="glitch-div">Pyxie</span>         #
+#       ---------------------       #     <span style="color: #7e2eff;"><i>this is a Keter-class entity. proceed with caution.</i></span>
+#         power level: <span style="color: red;">error</span>        #     >> <span style="color: #7e2eff;">experimentation of this entity is ill-advised.<i></span>
+#       dims of orgin: <span style="color: red;">error</span>        #     
+#        affiliations: <span style="color: red;" class="glitch-div">sxlar</span>       #
  ###################################
 	</div>
 `;
