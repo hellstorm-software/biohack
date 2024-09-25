@@ -34,7 +34,7 @@ async function handleCommand(command) {
     case "hoard":
       return `you have 1 Brainstem. Use hunt.brainstem to search for <i>Anomevos</i> to fight;`
     case "user-lookup.kyphxr":
-      return userLookupResponse;
+      return kyphxrLookupResponse;
     case "help":
       return helpResponse;
     case "clear":
