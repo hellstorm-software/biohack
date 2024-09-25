@@ -128,13 +128,12 @@ const helpResponse = `
 		>> discord -- link to the official discord<br>
 		>> user-lookup.[username] -- pull up a user profile<br>
 		>> clear -- clear the console<br>
-		>> whoami <br>
-		>> status <br>
-		>> hackmud <br>
-		>> register <br>
-		>> matrix.on / matrix.off <br>
-		>> kyphxr.console <br>
-		>> main.console <br>
+		>> whoami -- check your login<br>
+		>> hackmud -- hackmud info<br>
+		>> register -- begin the game<br>
+		>> matrix.on / matrix.off -- enable/disable matrix text over chat box<br>
+		>> kyphxr.console -- switch to the console kyphxr uses in his vidoes<br>
+		>> main.console -- switch to the main biohack console<br>
 	</span>
 `;
 
