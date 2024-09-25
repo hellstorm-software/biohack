@@ -39,7 +39,7 @@ async function handleCommand(command) {
       return grimbeardLookupResponse;
     case "help":
       return helpResponse;
-    case "OSINT.pug":
+    case "osint.pug":
       return pugResponseA;
     case "clear":
       return emptyResponse;
