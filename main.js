@@ -125,13 +125,13 @@ const emoteMap = {
   'LETSGOOO': 'https://cdn.betterttv.net/emote/5f7cd139ce8bc74a94247828/1x', 
   'POGSLIDE': 'https://cdn.betterttv.net/emote/5aea37908f767c42ce1e0293/1x',
   'hoSway': 'https://cdn.betterttv.net/emote/56396c857e538de14bd747a5/1x',
-  'pepoG': 'https://cdn.betterttv.net/emote/5d63e543375afb1da9a68a5a/1x', 
+  'peepoG': 'https://cdn.betterttv.net/emote/5d63e543375afb1da9a68a5a/1x', 
   'catJAM': 'https://cdn.betterttv.net/emote/5f1b0186cf6d2144653d2970/1x' 
 };
 
 // Replace emote codes with corresponding images
 function replaceEmotesWithImages(content) {
-  return content.replace(/\b(Kappa|PogChamp|FeelsBadMan|catJAM|KEKW|NOOO|LETSGOOO|POGSLIDE|hoSway|pepoG)\b/g, match => {
+  return content.replace(/\b(Kappa|PogChamp|FeelsBadMan|catJAM|KEKW|NOOO|LETSGOOO|POGSLIDE|hoSway|peepoG)\b/g, match => {
     if (emoteMap[match]) {
       return `<img src="${emoteMap[match]}" alt="${match}" class="emote">`; // Replace with emote image
     }
