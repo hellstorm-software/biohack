@@ -150,11 +150,19 @@ body {
 }
 
 .matrix-textc {
-	color: #b603fc;
+	color: #d6cb51;
 }
 
 .ky-text {
 	color: #fe5746;
+}
+
+.console-text {
+	color: #5180d6;
+}
+
+.mud-text {
+	color: #a6ddff;
 }
 
 .ti-text {
@@ -252,7 +260,7 @@ body {
 }
 
 .code-green {
-	color: #0091ff;
+	color: #04ff00;
 }
 
 .script-text {
@@ -413,4 +421,18 @@ body {
     height: 20px;
     line-height: 10px;
   }
+}
+
+.timestamp {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.username {
+  font-weight: bold;
+  color: blue;
+}
+
+#chat p {
+  margin-bottom: 5px;
 }

@@ -1,6 +1,18 @@
 async function handleCommand(command) {
   const sanitizedCommand = sanitizeInput(command);
-  const [cmd, ...args] = sanitizedCommand.split(' ');
+
+  // Check if the command contains parentheses (like chat.say("message"))
+  const parenthesisPattern = /^([a-zA-Z.]+)\(([^)]*)\)$/;
+  const matches = sanitizedCommand.match(parenthesisPattern);
+  
+  let cmd, args;
+
+  if (matches) {
+    cmd = matches[1];  // The command (e.g., chat.say)
+    args = [matches[2]];  // The content inside the parentheses (e.g., "message")
+  } else {
+    [cmd, ...args] = sanitizedCommand.split(' ');  // Fallback to regular splitting if no parentheses
+  }
 
   // Check if the command is an admin command
   if (adminCommands && adminCommands[cmd]) {
@@ -35,6 +47,11 @@ async function handleCommand(command) {
       return `you have 1 Brainstem. Use hunt.brainstem to search for <i>Anomevos</i> to fight;`
     case "user-lookup.kyphxr":
       return kyphxrLookupResponse;
+    case "chat.say":
+      const message = args[0];  // Extract the message inside parentheses
+      chat.say(message);  // Call the chat.say() function to print the message in the "chat" div
+      return `Message sent: ${message}`;
+
     case "user-lookup.grimbeard":
       return grimbeardLookupResponse;
     case "help":
