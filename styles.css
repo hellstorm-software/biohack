@@ -55,16 +55,23 @@ body {
   min-height: 20px; /* Adjust based on your preference */
 }
 
-#chat {
+#chatBox {
   width: 29%;
   border: none;
   margin-top: 21.5%;
   background-color: black;
-  color: green;
   font-family: monospace;
   border: 1px solid #5100ff;
   min-height: 100px;
   height: 45%;
+}
+
+#chat {
+  border: none;
+  background-color: black;
+  color: green;
+  font-family: monospace;
+  min-height: 100px;
   overflow-y: scroll;
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #fe5746 black; /* Firefox */
