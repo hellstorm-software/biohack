@@ -20,7 +20,7 @@ function matrix() {
     const x = ind * 20; 
     
 
-    if (y > h - 600) { 
+    if (y > h - 510) { 
       ctx.fillStyle = '#7738ff';
     } else {
       ctx.fillStyle = '#fe5746'; 
