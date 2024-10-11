@@ -313,12 +313,12 @@ const leGrid = `
                    %%%%%%%%%%%%%%%%                                                                 
                  %%%%%%%%%%%%%%%%                                                                   
                                                                                                     
-							  Sxlar Wasteland Presents                                                           
+							  <span style="font-size: 25px;">Sxlar Wasteland Presents</span>                                                           
 </div>
 `;
 
 const leGrid2 = `
-	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -50px; text-align: center;"> 
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -40px; text-align: center;"> 
 	a HellStorm Studios Production 
 	</div>
 `;
