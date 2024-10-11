@@ -56,6 +56,8 @@ async function handleCommand(command) {
       return grimbeardLookupResponse;
     case "help":
       return helpResponse;
+    case "enter.the.grid":
+      return leGrid;
     case "osint.pug":
       return pugResponseA;
     case "system.override()":
