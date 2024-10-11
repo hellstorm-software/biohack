@@ -58,6 +58,8 @@ async function handleCommand(command) {
       return helpResponse;
     case "enter.the.grid":
       return leGrid;
+    case "p2":
+      return leGrid2;
     case "osint.pug":
       return pugResponseA;
     case "system.override()":
