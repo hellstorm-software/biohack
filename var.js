@@ -314,8 +314,7 @@ const leGrid = `
                  %%%%%%%%%%%%%%%%                                                                   
                                                                                                     
 							  Sxlar Wasteland Presents                                                           
-
-	</div>
+</div>
 `;
 
 const leGrid2 = `
