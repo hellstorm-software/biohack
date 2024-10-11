@@ -319,7 +319,13 @@ const leGrid = `
 `;
 
 const leGrid2 = `
-	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -175px; margin-top: -30px; text-align: center;"> 
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -50px; text-align: center;"> 
 	a HellStorm Studios Production 
+	</div>
+`;
+
+const leGrid3 = `
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -50px; text-align: center;"> 
+	NETFLIX FOR GAMERS 
 	</div>
 `;

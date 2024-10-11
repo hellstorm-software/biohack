@@ -60,6 +60,8 @@ async function handleCommand(command) {
       return leGrid;
     case "p2":
       return leGrid2;
+    case "p3":
+      return leGrid3;
     case "osint.pug":
       return pugResponseA;
     case "system.override()":
