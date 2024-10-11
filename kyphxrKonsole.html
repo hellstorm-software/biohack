@@ -6,12 +6,10 @@
 	<!-- Firebase SDK -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js"></script>
 	<script src="main.js" defer></script>
 </head>
 <body>
-	<div class="info-bar" style="margin-right: 92%; text-align: left; position: static;"">
+	<div class="info-bar" style="margin-right: 92%; text-align: left; position: static;">
 		
 		
 	</div>
@@ -51,8 +49,10 @@
 		</div>
 	</div>
 	
-    <div id="chat">
-		<canvas width="500" height="200" id="canv"> </canvas>
+	<div id="chatBox" style="overflow: hidden;">		
+		<canvas width="500" height="500" id="canv" style="margin-top: -100px;"></canvas>
+		<div id="chat">
+		</div>
 	</div>
 
 	<div id="status">
