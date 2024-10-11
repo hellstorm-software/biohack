@@ -273,7 +273,7 @@ const resetHT = `
 `;
 
 const leGrid = `
-	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -100px; text-align: center;">  
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -100px; text-align: center; color: #fe5746">  
 	
 
                                                                                                     
@@ -313,18 +313,19 @@ const leGrid = `
                    %%%%%%%%%%%%%%%%                                                                 
                  %%%%%%%%%%%%%%%%                                                                   
                                                                                                     
-							  <span style="font-size: 25px;">Sxlar Wasteland Presents</span>                                                           
+																									
+							  <span style="font-size: 20px; color: #5100ff;">Sxlar Wasteland Presents</span>                                                           
 </div>
 `;
 
 const leGrid2 = `
-	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -40px; text-align: center;"> 
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -40px; text-align: center; font-size: 14px; color: #5100ff;"> 
 	a HellStorm Studios Production 
 	</div>
 `;
 
 const leGrid3 = `
-	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -50px; text-align: center;"> 
+	<div style="color: #a6ddff; white-space: pre; lineHeight: 12px; margin-left: -170px; margin-top: -50px; text-align: center; color: #fe5746;"> 
 	NETFLIX FOR GAMERS 
 	</div>
 `;
