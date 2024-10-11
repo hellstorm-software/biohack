@@ -9,8 +9,8 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between; /* Space between terminal and chat */
-  height: 100vh; /* Full viewport height */
+  justify-content: space-between; 
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -21,26 +21,26 @@ body {
   margin-left: .25%;
   border: 1px solid #5100ff;
   overflow-y: scroll;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #fe5746 black; /* Firefox */
+  scrollbar-width: thin; 
+  scrollbar-color: #fe5746 black;
 }
 
 /* For WebKit browsers (Chrome, Safari, newer Edge) */
 #terminal::-webkit-scrollbar {
-  width: 12px; /* Adjust the width of the scrollbar */
+  width: 12px; 
 }
 
 #terminal::-webkit-scrollbar-track {
-  background: black; /* Background color of the track */
+  background: black;
 }
 
 #terminal::-webkit-scrollbar-thumb {
-  background: #fe5746; /* Color of the scroll thumb (the part you drag) */
-  border-radius: 6px; /* Rounded corners for the thumb */
+  background: #fe5746;
+  border-radius: 6px;
 }
 
 #terminal::-webkit-scrollbar-thumb:hover {
-  background: darkred; /* Darker color when hovering over the thumb */
+  background: darkred;
 }
 
 #input {
@@ -52,7 +52,7 @@ body {
   color: green;
   font-family: monospace;
   margin-top: -3%;
-  min-height: 20px; /* Adjust based on your preference */
+  min-height: 20px;
 }
 
 #chatBox {
@@ -73,26 +73,26 @@ body {
   font-family: monospace;
   min-height: 100px;
   overflow-y: scroll;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #fe5746 black; /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #fe5746 black;
 }
 
 /* For WebKit browsers (Chrome, Safari, newer Edge) */
 #chat::-webkit-scrollbar {
-  width: 12px; /* Adjust the width of the scrollbar */
+  width: 12px;
 }
 
 #chat::-webkit-scrollbar-track {
-  background: black; /* Background color of the track */
+  background: black;
 }
 
 #chat::-webkit-scrollbar-thumb {
-  background: #fe5746; /* Color of the scroll thumb (the part you drag) */
-  border-radius: 6px; /* Rounded corners for the thumb */
+  background: #fe5746;
+  border-radius: 6px;
 }
 
 #chat::-webkit-scrollbar-thumb:hover {
-  background: darkred; /* Darker color when hovering over the thumb */
+  background: darkred; 
 }
 
 #status {
@@ -106,26 +106,26 @@ body {
   min-height: 100px;
   height: 15%;
   overflow-y: scroll;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #fe5746 black; /* Firefox */
+  scrollbar-width: thin; 
+  scrollbar-color: #fe5746 black;
 }
 
 /* For WebKit browsers (Chrome, Safari, newer Edge) */
 #status::-webkit-scrollbar {
-  width: 12px; /* Adjust the width of the scrollbar */
+  width: 12px;
 }
 
 #status::-webkit-scrollbar-track {
-  background: black; /* Background color of the track */
+  background: black;
 }
 
 #status::-webkit-scrollbar-thumb {
-  background: #fe5746; /* Color of the scroll thumb (the part you drag) */
-  border-radius: 6px; /* Rounded corners for the thumb */
+  background: #fe5746;
+  border-radius: 6px;
 }
 
 #status::-webkit-scrollbar-thumb:hover {
-  background: darkred; /* Darker color when hovering over the thumb */
+  background: darkred; 
 }
 
 .red-text {

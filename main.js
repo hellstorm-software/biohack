@@ -36,7 +36,7 @@ let terminalHistory = [];
 // Add styling for specific keywords in the input
 function applyStylingToText(content) {
   return content.replace(/<\/?[^>]+>/g, match => match) // Ignore HTML tags
-    .replace(/\b(help|user|username|create|script|scripts|room|rooms|code|matrix|lookup|whoami|redacted|clear|brainstem|hunt|kyphxr|console|osint)\b/gi, 
+.replace(/\b(help|user|username|create|script|scripts|room|rooms|code|matrix|lookup|whoami|redacted|clear|brainstem|hunt|kyphxr|console|osint|enter|the|grid)\b/gi, 
       (match) => `<span class="${getTextColorClass(match)}">${match}</span>`);
 }
 
@@ -88,6 +88,9 @@ function getTextColorClass(keyword) {
     hunt: 'red-text2',
 	kyphxr: 'ky-text',
 	osint: 'ti-text',
+	enter: 'orange-text',
+	the: 'orange-text',
+	grid: 'orange-text',
   };
   return colors[keyword.toLowerCase()] || '';
 }
