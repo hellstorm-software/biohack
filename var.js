@@ -329,3 +329,39 @@ const leGrid3 = `
 	NETFLIX FOR GAMERS 
 	</div>
 `;
+
+const restart1 = `
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+		<div style="margin-left: 1%;">
+			<span style="color: #666">v. 0.0.0.7<br>
+			this is a test build, it is not necessarily reflective of the final product and is prone to bugs<br>
+			-------------------------------------------------------</span><br>
+			<span ><a style="color: #5e4dff;" href="https://discord.gg/ykmdtZhSN3">Join the Discord!</a></span><br>
+			----------<br>
+			<a style="color: #995c32" href="https://hellstorm-software.github.io/makeCoolShit/makeCoolShit.html" target="_blank">enter the grid (sxlar wasteland)</a><br>
+			<span style="color: green;">the project is approximately :: 0.1% complete</span>
+			#########################################################################################################################################################################################<br>
+			#########################################################################################################################################################################################<br>
+			<span style="font-size: 20px; margin-left: 25%;">OFFICIAL CORRESPONDANCE FROM THE DEPARTMENT OF HOMELAND SECURITY</span><br><br>
+				Welcome to your first day on the job! As you know, you have been contracted for a routine maintenence check of our security protocols. You have full scope of all systems, however <br>
+				we will only be providing you with base level entry. You must reach higher clearance yourself throughout your searches. We'd like to remind you that all information gleaned during <br>
+				these tests are protected by NDA and are matters of national security. We will not hesitate to utilize our full resources to make sure an opportunity for a second leak would be <br>
+				impossible.
+				<br><br>
+				There are other contractors inside the system but at the moment, our servers are blocking any peer to peer connections meaning the only way you can interact with other players is <br>
+				through scripting. Our only request is you refrain from interacting with project.Omega. It is an automated machine and you may see it moving throughout our systems. Just go around <br>
+				it, interferance could lead to complications.
+				<br><br>
+				<span class="lYellow-text">type 'register' to get started</span>
+			#########################################################################################################################################################################################<br>
+			#########################################################################################################################################################################################<br>
+		</div>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>ㅤ<br>
+	<span class="lYellow-text">Create a new user by typing user.Create [username] and replace '[username]' with your desired username.</span>
+`;

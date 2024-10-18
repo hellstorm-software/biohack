@@ -40,6 +40,7 @@ async function handleCommand(command) {
         Check out Hackmud <a style="color: green;" href="https://store.steampowered.com/app/469920/hackmud/" target="_blank">on steam!</a>
       `;
     case "register":
+      return restart1;
       return "Create a new user by typing user.Create [username] and replace '[username]' with your desired username.";
     case "matrix.tut":
       return tutorialMatrix;
@@ -51,7 +52,6 @@ async function handleCommand(command) {
       const message = args[0];  // Extract the message inside parentheses
       chat.say(message);  // Call the chat.say() function to print the message in the "chat" div
       return `Message sent: ${message}`;
-
     case "user-lookup.grimbeard":
       return grimbeardLookupResponse;
     case "help":
@@ -87,7 +87,7 @@ async function handleCommand(command) {
     case "whoami":
       return storedUsername ? `Current username: ${storedUsername}` : "No user is currently created.";
     case "login":
-      return storedUsername ? `Logged in as: ${storedUsername}<br>Server status: operational.<br>Multiplayer status: OFFLINE.<br>${devMessage}` : "No user is currently created.";
+      return storedUsername ? `Logged in as: ${storedUsername}<br>Server status: operational.<br>Multiplayer status: OFFLINE.<br>${devMessage}` : "No user is currently created. Type register to get started.";
     case "empty":
       clearTerminal();
       return "";
